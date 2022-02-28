@@ -903,5 +903,6 @@ html::-webkit-scrollbar {
 
     #cfollow {
         display: none;
+        opacity: 0;
     }
 }
