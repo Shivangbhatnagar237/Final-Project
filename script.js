@@ -131,6 +131,7 @@ cross.addEventListener('click', function () {
 var cf = document.querySelector('#cfollow');
 
 window.addEventListener('mousemove', function (dets) {
+    cf.style.display = 'block';
     var posX = dets.clientX - cf.getBoundingClientRect().width/2;
     var posY = dets.clientY - cf.getBoundingClientRect().height/2;
     gsap.to(cf, {

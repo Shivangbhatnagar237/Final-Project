@@ -610,6 +610,7 @@ html::-webkit-scrollbar {
 }
 
 #cfollow {
+    display: none;
     position: absolute;
     pointer-events: none;
     width: 15px;
