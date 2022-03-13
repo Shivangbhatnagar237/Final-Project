@@ -395,7 +395,7 @@ html::-webkit-scrollbar {
 
 .stroked {
     color: transparent;
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 0.5px #fff;
 }
 
 #pg3 {
